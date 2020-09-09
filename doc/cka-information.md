@@ -1,5 +1,5 @@
 # Certified Kubernetes Administrator 정보
-<center><br><img src="https://chhanz.github.io/assets/images/post/2019-09-30-cka-exam-review/logo_cka.png" style="max-width: 40%; height: auto;"><br></center>   
+![](https://chhanz.github.io/assets/images/post/2019-09-30-cka-exam-review/logo_cka.png)   
    
 CKA (Certified Kubernetes Administrator)는 The Linux Foundation에서 주관하는 Kubernetes 관리자 인증 시험입니다.   
 Kubernetes 를 다루는 기본적인 내용부터 장애 처리 능력까지 Administrator 의 역량을 평가하는 시험입니다.   
@@ -7,6 +7,7 @@ Kubernetes 를 다루는 기본적인 내용부터 장애 처리 능력까지 Ad
 
 # 출제 범위
 CKA 출제 내용은 아래와 같습니다.   
+   
 |Domain|Weight|
 |---|---|
 |Cluster Architecture, Installation & Configuration|25%|
