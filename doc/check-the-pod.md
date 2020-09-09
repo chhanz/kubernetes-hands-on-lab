@@ -129,7 +129,7 @@ spec:
     name: pod-test-app-2
 EOF
 ```
-of
+or
 ```bash
 $ kubectl create -f pod-test-app-2.yml
 ```
