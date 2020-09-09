@@ -2,7 +2,8 @@
 이 문서는 Application 을 Build 하는 방법에 대해 설명하고 있습니다.   
    
 # Buildah 란?
-`Buildah` 는 `Podman` 의 Container image Build 및 push 등을 지원하는 Tool 로 `podman build` 을 사용할 경우, 내부적으로 `Buildah` 를 이용하여 Container image 를 Build 하게 됩니다.   
+`Buildah` 는 `Podman` 의 Container image Build 및 push 등을 지원하는 Tool 로 `podman build` 을 사용할 경우,   
+내부적으로 `Buildah` 를 이용하여 Container image 를 Build 하게 됩니다.   
 또한 Buildah 를 이용하면 layer 별로 순차적으로 Build 를 수행 할 수 있습니다.   
    
 # Buildah 설치
