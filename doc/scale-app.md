@@ -7,7 +7,7 @@
 * After   
 ![](https://d33wubrfki0l68.cloudfront.net/30f75140a581110443397192d70a4cdb37df7bfc/b5f56/docs/tutorials/kubernetes-basics/public/images/module_05_scaling2.svg)   
 
-# Commnad 를 이용하여 Scale-out
+# Command 를 이용하여 Scale-out
 기존에 1개의 Pod 으로 실행중이던 APP 을 5개의 Pod 으로 Scale-out 하도록 하겠습니다.   
 ```bash
 $ kubectl scale deployment --replicas=5 flask-example-app
