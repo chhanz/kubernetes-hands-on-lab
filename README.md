@@ -17,7 +17,7 @@
     + [Create The Deployment](/doc/create-the-deployment.md)   
 + Check APP   
     + [Check The Node](/doc/check-the-node.md)   
-    + [Chech The APP](/doc/check-the-pod.md)   
+    + [Check The APP](/doc/check-the-pod.md)   
 + Expose APP   
     + [Expose APP - `NodePort`](/doc/expose-app.md)   
 + Scale APP   
