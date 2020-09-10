@@ -30,3 +30,4 @@
 * [https://chhanz.github.io/tags/kubernetes/](https://chhanz.github.io/tags/kubernetes/)   
 * [https://github.com/chhanz/flask-example-app](https://github.com/chhanz/flask-example-app)   
 * [https://github.com/chhanz/ansible.fast-k3s](https://github.com/chhanz/ansible.fast-k3s)    
+* [https://k8syaml.com/](https://k8syaml.com/)   
