@@ -26,7 +26,7 @@ Kubernetes Node 는 최소한 다음과 같이 동작합니다.
     NAME                    CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%
     fastvm-centos-7-7-110   127m         6%     573Mi           66%
     ```
-# Control Node
+# Node Management
 * Node Schedule 관련
     ```bash
     $ kubectl --help
