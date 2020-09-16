@@ -34,7 +34,7 @@ $ buildah list            < CONTAINER ID 확인
 CONTAINER ID  BUILDER  IMAGE ID     IMAGE NAME                       CONTAINER NAME
 bff73bfb1adc     *     7e6257c9f8d8 docker.io/library/centos:7       centos-working-container
 $ buildah run bff73bfb1adc -- yum -y install epel-release
-$ buildah run bff73bfb1adc -- yum install sl
+$ buildah run bff73bfb1adc -- yum -y install sl
 $ buildah commit bff73bfb1adc sl-test-app
 ```
    
