@@ -70,7 +70,7 @@ index 2b9f022..9b347b4 100755
     ```
 * 변경 확인
     ```bash
-    kubectl describe deployments flask-example-app
+    $ kubectl describe deployments flask-example-app
     Name:                   flask-example-app
     Namespace:              default
     CreationTimestamp:      Wed, 09 Sep 2020 15:37:59 +0900
@@ -140,7 +140,7 @@ Image 에 `v99` 라는 TAG 는 없으므로 ImagePull 에서 Error 가 발생되
 * Rollback 진행
     + 현재 상태 확인
     ```bash
-    kubectl rollout history deployment flask-example-app
+    $ kubectl rollout history deployment flask-example-app
     deployment.apps/flask-example-app
     REVISION  CHANGE-CAUSE
     1         <none>
@@ -154,7 +154,7 @@ Image 에 `v99` 라는 TAG 는 없으므로 ImagePull 에서 Error 가 발생되
     ```
     + Rollback 확인
     ```bash
-    kubectl describe deployments.apps flask-example-app
+    $ kubectl describe deployments.apps flask-example-app
     Name:                   flask-example-app
     Namespace:              default
     CreationTimestamp:      Wed, 09 Sep 2020 15:37:59 +0900
