@@ -64,7 +64,7 @@ Login Succeeded!
    
 Push 할 image 의 TAG 를 수정합니다.   
 ```bash
-$ buildah tag flask-example-app:v1 docker.io/<dockerhub id>/flask-test-app:v1
+$ buildah tag flask-test-app:v1 docker.io/<dockerhub id>/flask-test-app:v1
 ```
    
 아래 명령어를 통해 PUSH 를 합니다.   
