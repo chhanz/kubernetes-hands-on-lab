@@ -30,6 +30,9 @@
 Build 과정을 이해하기 위해 간단한 APP 을 Container image 로 build 해보겠습니다.   
 ```bash
 $ buildah from centos:7
+$ buildah list            < CONTAINER ID 확인
+CONTAINER ID  BUILDER  IMAGE ID     IMAGE NAME                       CONTAINER NAME
+bff73bfb1adc     *     7e6257c9f8d8 docker.io/library/centos:7       centos-working-container
 $ buildah run bff73bfb1adc -- yum -y install epel-release
 $ buildah run bff73bfb1adc -- yum install sl
 $ buildah commit bff73bfb1adc sl-test-app
