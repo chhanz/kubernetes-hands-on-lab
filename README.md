@@ -11,7 +11,7 @@
 + [`CKA` 자격 시험 정보](/doc/cka-information.md)   
 
 # Hands on 목차
-+ [Build APP - Container imgae](/doc/buildah.md)   
++ [Build APP - Container image](/doc/buildah.md)   
 + Deploy APP
     + [Build APP](/doc/build-app-flask.md)   
     + [Create The Deployment](/doc/create-the-deployment.md)   
